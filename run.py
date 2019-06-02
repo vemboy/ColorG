@@ -9,7 +9,7 @@ number_of_pics = 10
 i = 1
 while(i <=   number_of_pics):
 
-    colors = open_image("C:\\Users\\user\\Desktop\\hetazotakan\\saved_images\\high_distance\\highcolor{}.jpg".format(str(i)))
+    colors = open_image("C:\\Users\\vemboy\\Documents\\GitHub\\Color-Guerdon\\saved_images\\low_distance\\aesthetic{}.jpg".format(str(i)))
 
     # Top colors 
     counter = Counter(colors)
@@ -51,6 +51,12 @@ print("")
 print("----TOTAL----")
 print(total_avarage)
 print(total_defenition)
+print("")
 print("----LIST----")
+print("")
+print("----2by2_method----")
 print(avarage_list_2by2)
+print("")
+print("----1forall_method----")
 print(avarage_list_1forall)
+print("")
